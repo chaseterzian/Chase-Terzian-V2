@@ -14,5 +14,7 @@
  *= require_self
  */
  body#landing {
- 	background-image: url(../img/KBSepia2Lo.jpg) no-repeat center;
+ 	background: url('KBSepiaLo.jpg');
+ 	background-size: cover;
+ 	height: 1080px;
  }
