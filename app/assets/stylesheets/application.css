@@ -51,15 +51,6 @@
 
  }
 
- .bg2{  
- 	background-image: url(../img/KBSepia2Lo.jpg) no-repeat center;
- }
-
- .bg3{  
- 	background-image: url(../img/KBSepiaLo.jpg) no-repeat center;
- 	width: 100%;
- }
-
  .intro-message {
  	position: relative;
  	padding-top: 20%;
