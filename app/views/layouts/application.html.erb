@@ -3,30 +3,33 @@
 <head>
 	<title>Chase Terzian</title>
 	<%= csrf_meta_tags %>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,300,500,700,100' rel='stylesheet' type='text/css'>
+	<script src="https://use.fontawesome.com/9a42c95abc.js"></script>
 
 	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 	<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
 </head>
 
 <body id="body-main">
 	<nav>
 		<div class="container">
-			<a>
+			<a href="/home">
 				<p>Home</p>
 			</a>
-			<a>
+			<a href="/code">
 				<p>Code Projects</p>
 			</a>
-			<a>
+			<a href="/music">
 				<p>Music</p>
 			</a>
-			<a>
+			<a href="/media">
 				<p>Media</p>
 			</a>
-			<a>
+			<a href="/contact">
 				<p>Contact</p>
 			</a>
 		</div>
@@ -41,16 +44,16 @@
 	<%= yield %>
 
 	<footer>
-		<a href="">
+		<a href="/code">
 			<p>Code Projects</p>
 		</a>
-		<a href="">
+		<a href="/music">
 			<p>Music</p>
 		</a>
-		<a href="">
+		<a href="/media">
 			<p>Media</p>
 		</a>
-		<a href="">
+		<a href="/contact">
 			<p>Contact</p>
 		</a>
 	</footer>

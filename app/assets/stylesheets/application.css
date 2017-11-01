@@ -13,21 +13,74 @@
  *= require_tree .
  *= require_self
  */
+ /*LANDING*/
+ .landing-name {
+ 	text-align: center;
+ 	margin-top: 220px;
+ 	font-size: 70px;
+ 	margin-bottom: 0;
+ }
+
+ .landing-links {
+ 	text-align: center;
+ }
+
+ .landing-links button {
+ 	width: 120px;
+ 	height: 40px;
+ 	border-radius: 5px;
+ 	background: #fff;
+ 	color: black;
+ 	font-size: 16px;
+ 	border: none;
+ }
+
+ .landing-links a {
+ 	text-decoration: none;
+ }
+
  body#landing {
- 	background: url('KBSepiaLo.jpg');
+ 	background: url('KBSepiaLo.jpg') no-repeat;
+ 	/*height: 1080px;*/
+
+ 	height: 100%;
+ 	width: 100%;
  	background-size: cover;
- 	height: 1080px;
+ }
+
+ #landing-hr-1 {
+ 	width: 260px;
+ 	margin-bottom: 20px;
+ }
+
+ #landing-hr-2 {
+ 	width: 400px;
+ 	margin-bottom: 20px;
+ 	margin-top: 20px;
+ }
+
+ #project-preload {
+ 	display: none;
+ }
+ /*LANDING*/
+
+
+
+ /*STYLES*/
+ h1 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+ 	color: #fff;
  }
 
  body,
- h1,
  h2,
  h3,
  h4,
  h5,
  h6 {
- 	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
- 	font-weight: 700;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 300;
  }
 
  .margintop-10 {
@@ -289,3 +342,4 @@
  		float: left;
  	}
  }
+ /*STYLES*/

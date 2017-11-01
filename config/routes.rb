@@ -2,6 +2,8 @@ Rails.application.routes.draw do
 
 	root 'landing#index'
 
+	get '/home' => 'landing#index'
+
 	get '/code' => 'code#index'
 	get '/gearbox' => 'code#gearbox'
 	get '/theprojects' => 'code#theprojects'
