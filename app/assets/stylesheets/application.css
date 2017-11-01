@@ -30,6 +30,95 @@
  	font-weight: 700;
  }
 
+ .margintop-10 {
+ 	margin-top: 10px;
+ }
+ .margintop-20 {
+ 	margin-top: 20px;
+ }
+ .margintop-30 {
+ 	margin-top: 30px;
+ }
+ .margintop-40 {
+ 	margin-top: 40px;
+ }
+ .margintop-50 {
+ 	margin-top: 50px;
+ }
+ .margintop-60 {
+ 	margin-top: 60px;
+ }
+ .margintop-100 {
+ 	margin-top: 100px;
+ }
+
+ .marginbtm-10 {
+ 	margin-top: 10px;
+ }
+ .marginbtm-20 {
+ 	margin-top: 20px;
+ }
+ .marginbtm-30 {
+ 	margin-top: 30px;
+ }
+ .marginbtm-40 {
+ 	margin-top: 40px;
+ }
+ .marginbtm-50 {
+ 	margin-top: 50px;
+ }
+ .marginbtm-60 {
+ 	margin-top: 60px;
+ }
+ .marginbtm-100 {
+ 	margin-top: 100px;
+ }
+
+ .padtop-10 {
+ 	padding-top: 10px;
+ }
+ .padtop-20 {
+ 	padding-top: 20px;
+ }
+ .padtop-30 {
+ 	padding-top: 30px;
+ }
+ .padtop-40 {
+ 	padding-top: 40px;
+ }
+ .padtop-50 {
+ 	padding-top: 50px;
+ }
+ .padtop-60 {
+ 	padding-top: 60px;
+ }
+ .padtop-100 {
+ 	padding-top: 100px;
+ }
+
+ .padbtm-10 {
+ 	padding-bottom: 10px;
+ }
+ .padbtm-20 {
+ 	padding-bottom: 20px;
+ }
+ .padbtm-30 {
+ 	padding-bottom: 30px;
+ }
+ .padbtm-40 {
+ 	padding-bottom: 40px;
+ }
+ .padbtm-50 {
+ 	padding-bottom: 50px;
+ }
+ .padbtm-60 {
+ 	padding-bottom: 60px;
+ }
+ .padbtm-100 {
+ 	padding-bottom: 100px;
+ }
+
+
  @media (min-width: 1200px) {
  	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
  		float: left;

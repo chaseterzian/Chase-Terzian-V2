@@ -1,15 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>PersonalSite</title>
-    <%= csrf_meta_tags %>
+<head>
+	<title>Chase Terzian</title>
+	<%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
-  <body id="body-main">
-    <%= yield %>
-    
-  </body>
+</head>
+
+<body id="body-main">
+	<nav>
+		<div class="container">
+			<a>
+				<p>Home</p>
+			</a>
+			<a>
+				<p>Code Projects</p>
+			</a>
+			<a>
+				<p>Music</p>
+			</a>
+			<a>
+				<p>Media</p>
+			</a>
+			<a>
+				<p>Contact</p>
+			</a>
+		</div>
+	</nav>
+
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<img src="../img/KBSepia2.jpg" width="100%" />
+	</div>
+
+	<hr />
+
+	<%= yield %>
+
+	<footer>
+		<a href="">
+			<p>Code Projects</p>
+		</a>
+		<a href="">
+			<p>Music</p>
+		</a>
+		<a href="">
+			<p>Media</p>
+		</a>
+		<a href="">
+			<p>Contact</p>
+		</a>
+	</footer>
+
+</body>
 </html>
