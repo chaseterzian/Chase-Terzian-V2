@@ -3,9 +3,9 @@ Rails.application.routes.draw do
 	root 'landing#index'
 
 	get '/code' => 'code#index'
-	get 'code/gearbox' => 'code#gearbox'
-	get 'code/theprojects' => 'code#theprojects'
-	get 'code/whiteboard' => 'code#whiteboard'
+	get '/gearbox' => 'code#gearbox'
+	get '/theprojects' => 'code#theprojects'
+	get '/whiteboard' => 'code#whiteboard'
 
 	get '/contact' => 'contact#index'
 	get '/media' => 'media#index'
