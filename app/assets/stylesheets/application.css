@@ -13,6 +13,18 @@
  *= require_tree .
  *= require_self
  */
+ /*NAVBAR*/
+/* nav .main-navbar a {
+ 	text-align: center;
+ 	height: 40px;
+ 	width: 100%;
+ 	background: #000;
+ 	color: #fff;
+ }
+*/ /*NAVBAR*/
+
+
+
  /*LANDING*/
  .landing-name {
  	text-align: center;
@@ -41,7 +53,6 @@
 
  body#landing {
  	background: url('KBSepiaLo.jpg') no-repeat;
- 	/*height: 1080px;*/
 
  	height: 100%;
  	width: 100%;
@@ -63,6 +74,17 @@
  	display: none;
  }
  /*LANDING*/
+
+
+
+/*CATEGORY*/
+ #body-main #main-header-image {
+ 	background: url('KBSepia2.jpg') no-repeat;
+ 	background-size: contain;
+ 	height: 100%;
+ 	width: 100%;
+ }
+/*CATEGORY*/
 
 
 
