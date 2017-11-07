@@ -24,6 +24,29 @@
 */ /*NAVBAR*/
 
 
+/*NAVBAR*/
+#main-mavbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#main-mavbar li {
+    display: inline-block;
+}
+
+#main-mavbar li a {
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#main-mavbar li a:hover {
+    background-color: #111;
+}
+/*NAVBAR*/
+
+
 
  /*LANDING*/
  .landing-name {
@@ -79,10 +102,10 @@
 
 /*CATEGORY*/
  #body-main #main-header-image {
- 	background: url('KBSepia2.jpg') no-repeat;
- 	background-size: contain;
- 	height: 100%;
- 	width: 100%;
+ 	/*background: url('KBSepia2.jpg') no-repeat;*/
+ 	/*background-size: contain;*/
+ 	/*height: 100%;*/
+ 	/*width: 100%;*/
  }
 /*CATEGORY*/
 
@@ -103,6 +126,16 @@
  h6 {
  	font-family: 'Roboto', sans-serif;
  	font-weight: 300;
+ }
+
+ #main-mavbar li a {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 500;
+ }
+
+ body {
+ 	margin: 0;
+ 	padding: 0;
  }
 
  .margintop-10 {
