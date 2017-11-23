@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 	get '/gearbox' => 'code#gearbox'
 	get '/theprojects' => 'code#theprojects'
 	get '/whiteboard' => 'code#whiteboard'
+	get '/headsweats' => 'code#headsweats'
 
 	get '/contact' => 'contact#index'
 	get '/media' => 'media#index'

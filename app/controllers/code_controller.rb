@@ -6,6 +6,9 @@ class CodeController < ApplicationController
 	def gearbox
 	end
 
+	def headsweats
+	end
+
 	def theprojects
 	end
 
